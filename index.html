@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/estilos.css">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+	<title>JARCFLIX</title>
+</head>
+<body>
+	<header>
+		<div class="contenedor">
+			<a href="index.html" class="logotipo">JARCFLIX</a>
+			<nav>
+			  <div class="search-icon" id="searchIcon">&#128269;</div>
+			  <a href="#" class="activo">Inicio</a>
+			  <a href="#">Películas</a>
+			  <a href="#">Mi lista</a>
+			  <div class="search-container" id="searchContainer" style="display: none;">
+				<input type="text" id="searchInput" placeholder="Buscar...">
+				<button id="searchBtn">Buscar</button>
+			  </div>
+			</nav>
+		  </div>
+	</header>
+
+	<main>
+		<div class="pelicula-principal">
+			<div class="contenedor">
+			  <h3 class="titulo">DUNE PART 2</h3>
+			  <p class="descripcion">
+				Paul Atreides se une a Chani y a los Fremen mientras busca venganza contra los conspiradores que destruyeron a su familia. Paul se enfrenta a una elección entre el amor de su vida y el destino del universo, y debe evitar un futuro terrible.
+			  </p>
+			  <button role="button" class="boton">
+				<i class="fas fa-play"></i>Reproducir
+			  </button>
+			  <button role="button" class="boton">
+				<i class="fas fa-info-circle"></i>Más información
+			  </button>
+			</div>
+		  </div>
+		  
+		<div class="peliculas-recomendadas contenedor">
+			<div class="contenedor-titulo-controles">
+				<h3>Películas Recomendadas</h3>
+				<div class="indicadores"></div>
+			</div>
+
+			<div class="contenedor-principal">
+				<button role="button" id="flecha-izquierda" class="flecha-izquierda"><i class="fas fa-angle-left"></i></button>
+
+				<div class="contenedor-carousel">
+					<div class="carousel">
+						<div class="pelicula">
+							<a href="madamweb.html"><img src="img/Madame-web.jpg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="godzilla.html"><img src="img/Godzilla_new.jpeg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="shazam.html"><img src="img/Shazam.jpg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="tenet.html"><img src="img/Tenet-432994986-mmed.jpg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="extraction.html"><img src="img/Extraccion 2.jpg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="ezqualizer.html"><img src="img/Justiciero 3.jpg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="favor.html"><img src="img/Hazme el favor.jpg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="disaster.html"><img src="img/Maravilloso_desastre-238349215-large.jpg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="spiderman.html"><img src="img/Spiderman.webp" alt=""></a>
+						</div>
+					</div>
+				</div>
+
+				<button role="button" id="flecha-derecha" class="flecha-derecha"><i class="fas fa-angle-right"></i></button>
+			</div>
+		</div>
+	</main>
+	
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
